@@ -1,0 +1,44 @@
+
+body {
+ background:url("https://static.pexels.com/photos/9574/pexels-photo.jpeg") no-repeat;
+ background-size: cover;
+ font-family: 'Rancho', serif;
+ font-size: 30px;
+ text-align:center;       
+      }
+.title{
+  font-size:48px;
+  padding:2%;
+  
+}
+.subTitle{
+  font-size:40px;
+  margin-bottom:2%;
+}
+#icon,#temper{
+  display: inline-block;
+}
+#icon{
+  position: relative;
+  bottom: 5px;
+}
+#temper{
+  font-size:1.5em;
+  font-weight:bold;
+  padding-bottom:1%;
+  opacity: 0.6;
+}
+#location,#weather{
+  display:inline-block;
+}
+
+.container{
+  border:2px solid #ffffff;
+  
+  padding: 4% 4% 4% 4%;
+  margin: 0 auto 0.7% auto; 
+  background-color: #ffffff;
+  border-radius: 0.3em;
+  box-shadow: .2em .2em .2em #444;
+  opacity: 0.6;
+}
